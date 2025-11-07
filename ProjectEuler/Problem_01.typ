@@ -10,7 +10,7 @@ Find the sum of all the multiples of $3$ or $5$ below $1000$.
 === Code: Haskell
 
 ```haskell
-ans = sum filter (\x -> or [mod x 3 == 0, mod y 5 == 0]) [1..999]
+ans = sum filter (\x -> or [mod x 3 == 0, mod x 5 == 0]) [1..999]
 ```
 
 
